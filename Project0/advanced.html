@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Google Advanced Search</title>
+    <style>
+        .navbar {
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 100%;
+            padding: 10px;
+            background-color: #f2f2f2;
+            z-index: 1;
+            display: flex;
+            justify-content: flex-end;
+
+        }
+        .navbar a {
+            margin-left: 10px;
+            text-decoration: none;
+            color: #333;
+            display: flex;
+        }
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .search-form {
+            width: max-content;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            align-items: center;
+
+        }
+        .search-form form{
+            width: 100%;
+        }
+
+        .search-input {
+            margin-bottom: 10px;
+            padding: 8px;
+            padding-right: 0px;
+            width: 100%;
+        }
+
+        .search-button {
+            width: 200px;
+            padding: 10px;
+            border: none;
+            background-color: #4285f4;
+            color: white;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<div class="navbar">
+    <a href="index.html">Go back to Google Search</a>
+</div>
+<div class="search-form">
+    <form action="https://www.google.com/search" method="GET">
+        <div>
+            <label for="all-words-input">All these words:</label>
+            <input type="text" name="as_q" id="all-words-input" class="search-input">
+        </div>
+        <div>
+            <label for="exact-phrase-input">This exact word or phrase:</label>
+            <input type="text" name="as_epq" id="exact-phrase-input" class="search-input">
+        </div>
+        <div>
+            <label for="any-words-input">Any of these words:</label>
+            <input type="text" name="as_oq" id="any-words-input" class="search-input">
+        </div>
+        <div>
+            <label for="none-words-input">None of these words:</label>
+            <input type="text" name="as_eq" id="none-words-input" class="search-input">
+        </div>
+        <input type="submit" value="Advanced Search" class="search-button">
+    </form>
+</div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
