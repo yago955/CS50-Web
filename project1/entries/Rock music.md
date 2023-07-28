@@ -1,0 +1,2 @@
+
+Rock music is a broad genre of popular music that originated as "rock and roll" in the United States in the late 1940s and early 1950s, developing into a range of different styles from the mid-1960s, particularly in the U.S. and the United Kingdom.
